@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Widen ExamSoft Question List Pane",
+  "version": "0.1.0",
+  "description": "expands width from 330px to 400px to see longer question titles",
+ 
+  "content_scripts": [{
+    "css": ["widenQuestionPaneStyle.css"],
+    "matches": ["https://*.examsoft.com/STW-war/ei/questions/s=stanfordmed*"]
+  }]
+  
+}
